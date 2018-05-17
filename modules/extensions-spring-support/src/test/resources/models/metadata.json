@@ -11985,7 +11985,6 @@
           "format": "json",
           "type": "Object",
           "annotations": {
-            "label": "Person",
             "classInformation": {
               "classname": "java.io.InputStream",
               "hasDefaultConstructor": true,
@@ -11999,7 +11998,8 @@
               "parent": "",
               "genericTypes": [],
               "isMap": false
-            }
+            },
+            "label": "Person"
           },
           "open": {
             "type": "Any"
@@ -13400,7 +13400,6 @@
           "format": "json",
           "type": "Object",
           "annotations": {
-            "label": "Person",
             "classInformation": {
               "classname": "java.io.InputStream",
               "hasDefaultConstructor": true,
@@ -13414,7 +13413,8 @@
               "parent": "",
               "genericTypes": [],
               "isMap": false
-            }
+            },
+            "label": "Person"
           },
           "open": {
             "type": "Any"
@@ -13605,7 +13605,6 @@
                 "format": "json",
                 "type": "Object",
                 "annotations": {
-                  "label": "Person",
                   "classInformation": {
                     "classname": "java.util.Map",
                     "hasDefaultConstructor": false,
@@ -13617,7 +13616,8 @@
                     "parent": "",
                     "genericTypes": [],
                     "isMap": true
-                  }
+                  },
+                  "label": "Person"
                 },
                 "open": {
                   "type": "Any"
@@ -13812,7 +13812,6 @@
                 "format": "json",
                 "type": "Object",
                 "annotations": {
-                  "label": "Person",
                   "classInformation": {
                     "classname": "java.io.InputStream",
                     "hasDefaultConstructor": true,
@@ -13826,7 +13825,8 @@
                     "parent": "",
                     "genericTypes": [],
                     "isMap": false
-                  }
+                  },
+                  "label": "Person"
                 },
                 "open": {
                   "type": "Any"
@@ -13990,7 +13990,6 @@
           "format": "json",
           "type": "Object",
           "annotations": {
-            "label": "Person",
             "classInformation": {
               "classname": "java.io.InputStream",
               "hasDefaultConstructor": true,
@@ -14004,7 +14003,8 @@
               "parent": "",
               "genericTypes": [],
               "isMap": false
-            }
+            },
+            "label": "Person"
           },
           "open": {
             "type": "Any"
@@ -14813,7 +14813,7 @@
               "hasDynamicType": false,
               "required": false,
               "isConfigOverride": false,
-              "expressionSupport": "NOT_SUPPORTED",
+              "expressionSupport": "SUPPORTED",
               "role": "BEHAVIOUR",
               "dslConfiguration": {
                 "allowsInlineDefinition": true,
@@ -14825,6 +14825,48 @@
                 "text": false,
                 "query": false,
                 "order": 1,
+                "tabName": "Advanced"
+              },
+              "allowedStereotypeModels": [],
+              "name": "outputMimeType",
+              "description": "The mime type of the payload that this operation outputs.",
+              "modelProperties": {}
+            }
+          ],
+          "exclusiveParametersModels": [],
+          "layoutModel": {
+            "password": false,
+            "text": false,
+            "query": false,
+            "order": 1
+          },
+          "showInDsl": false,
+          "name": "General",
+          "description": "",
+          "modelProperties": {}
+        },
+        {
+          "parameters": [
+            {
+              "type": {
+                "format": "java",
+                "type": "String"
+              },
+              "hasDynamicType": false,
+              "required": false,
+              "isConfigOverride": false,
+              "expressionSupport": "NOT_SUPPORTED",
+              "role": "BEHAVIOUR",
+              "dslConfiguration": {
+                "allowsInlineDefinition": true,
+                "allowsReferences": true,
+                "allowTopLevelDefinition": false
+              },
+              "layoutModel": {
+                "password": false,
+                "text": false,
+                "query": false,
+                "order": 2,
                 "tabName": "Advanced"
               },
               "allowedStereotypeModels": [],
@@ -14855,7 +14897,7 @@
                 "password": false,
                 "text": false,
                 "query": false,
-                "order": 2,
+                "order": 3,
                 "tabName": "Advanced"
               },
               "allowedStereotypeModels": [],
@@ -14872,7 +14914,7 @@
             "password": false,
             "text": false,
             "query": false,
-            "order": 1
+            "order": 2
           },
           "showInDsl": false,
           "name": "Output",
@@ -18078,7 +18120,6 @@
                   "format": "json",
                   "type": "Object",
                   "annotations": {
-                    "label": "Person",
                     "classInformation": {
                       "classname": "java.io.InputStream",
                       "hasDefaultConstructor": true,
@@ -18092,7 +18133,8 @@
                       "parent": "",
                       "genericTypes": [],
                       "isMap": false
-                    }
+                    },
+                    "label": "Person"
                   },
                   "open": {
                     "type": "Any"
